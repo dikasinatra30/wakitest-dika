@@ -1,0 +1,21 @@
+@media all and (min-width: 480px) {
+    .home {
+      padding: 60px 0;
+    }
+  
+    .centered-content {
+      margin: 0 auto;
+      max-width: 1000px;
+    }
+
+    .block {
+      display: block;
+      width: 100%;
+      border: none;
+      background-color: #04AA6D;
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+    }
+}
