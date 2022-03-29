@@ -95,13 +95,10 @@
             var url = '{{ route("soal4.destroy", ":id") }}';
             url = url.replace(':id', data.id);
             document.getElementById("id").value = data.id
-            // document.getElementById("name").value = data.name
-            // document.getElementById("email").value = data.email
             document.getElementById("form_id").action = url;
             document.getElementById("form_id").method = 'delete';
             
             var button = document.getElementById('btn-form');
-            // button.form.submit();
         }
     </script>
 @endpush
